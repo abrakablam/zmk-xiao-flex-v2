@@ -19,19 +19,19 @@
 &kp DEL    &kp Z   &kp X     &kp C         &kp D      &kp V        &kp K      &kp H     &kp COMMA     &kp DOT   &kp FSLH  &kp GRAVE
                    &kp LEFT  &kp RIGHT                                                  &kp LBKT      &kp RBKT
                              &kp ASTERISK  &kp LALT   &kp LGUI     &to 2      &kp UP    &kp ENTER
-                             &tog 1        &kp LSHFT  &kp SPACE    &kp SPACE  &kp DOWN  &kp CAPSLOCK
+                             &mo 1         &kp LSHFT  &kp SPACE    &kp SPACE  &kp DOWN  &kp CAPSLOCK
             >;
         };
 
         symbols {
             bindings = <
-&none            &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA       &kp F1     &kp F2                &kp F3            &kp F4             &kp F5                 &kp F6
-&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp QUESTION    &kp F7     &kp F8                &kp F9            &kp F10            &kp F11                &kp F12
-&kp HASH         &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK    &kp TILDE  &kp AMPERSAND         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS               &kp BACKSLASH
-&kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH       &none      &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &none
-                                 &none                 &none                                                                                     &none             &none
-                                                       &none                  &none             &none           &none      &none                 &none
-                                                       &none                  &none             &none           &none      &none                 &none
+&none            &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA       &kp F1          &kp F2                &kp F3            &kp F4             &kp F5                 &kp F6
+&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp QUESTION    &kp F7          &kp F8                &kp F9            &kp F10            &kp F11                &kp F12
+&kp HASH         &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK    &kp TILDE       &kp AMPERSAND         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS               &kp BACKSLASH
+&kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH       &none           &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &none
+                                 &none                 &none                                                                                          &none             &none
+                                                       &none                  &none             &none           &kp LEFT_ARROW  &kp RIGHT_ARROW       &none
+                                                       &none                  &none             &kp SPACE       &kp SPACE       &none                 &none
             >;
         };
 
