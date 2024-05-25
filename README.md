@@ -12,6 +12,7 @@ Currently, I am only running three different key layers.
 
 ## Default Layer
 ![default](https://github.com/abrakablam/zmk-xiao-flex-v2/assets/165574894/9aa39870-3f1f-4aca-9250-f4af5bd2a83d)
+
 As the name suggests, this is the default layer for everyday use. I have been using [Colemak-dh](https://colemakmods.github.io/mod-dh/) for over two years now with no complaints.
 My specific layout shares all the same alpha keys and symbols, with the addition of a number row at the top and typical keyboard symbols and special keys. With the additon of the 3x3 thumb clusters, we have 12 new keys to map as we see fit.
 
@@ -25,8 +26,10 @@ Again taking inspiration from my Iris, this handles more common typing funcions 
 
 ## Symbol Layer
 ![symbols](https://github.com/abrakablam/zmk-xiao-flex-v2/assets/165574894/e28be2af-1e69-4e32-a925-8610d2ba2647)
+
 This was an idea I came across on Reddit's [r/ErgoMechKeyboards](https://old.reddit.com/r/ErgoMechKeyboards/). Now that I am coding more often, having access to special symbols is much more vital than before. Where on my previous keyboard, my second layer was a mix of symbols, a numpad, and random special functions, this one doubles-down on full symbols. While the lack of a numpad is already noticeable, it is nowhere near as important as symbols. Plus, I frequently never used most of the special functions, so they've been eliminated.
 
 ## QWERTY Layer
 ![qwerty](https://github.com/abrakablam/zmk-xiao-flex-v2/assets/165574894/f54fcf5f-09a8-4af2-b3db-5a486f388b7b)
+
 Finally, we come to a completely new layer. As some 70% of the modern world uses QWERTY, it's not entirely useless to have it. The primary purpose of this layer, however, is purely for video games. While most games offer remapping controls, they are almost never implemented the same ways, and are often incredibly lacking. And for many other games. there simply just aren't any keymapping options, or they are severely limited, leading to unaccessible keys or double-mapping keys, which is a massive pain. So, instead of fighting these systems, we now have a plain QWERTY layer.
