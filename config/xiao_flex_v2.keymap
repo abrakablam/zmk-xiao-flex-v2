@@ -20,7 +20,7 @@
 &kp DEL    &kp Z   &kp X     &kp C           &kp D      &kp V           &kp K         &kp H      &kp COMMA      &kp DOT   &kp FSLH  &kp GRAVE
                    &kp LEFT  &kp RIGHT                                                           &kp LBKT       &kp RBKT
                              &kp LEFT_SHIFT  &mo 1      &kp LA(TAB)     &kp UP_ARROW  &kp SPACE  &kp BACKSPACE
-                             &kp LEFT_ALT    &kp SPACE  &kp LEFT_WIN    &kp DOWN      &kp ENTER  &to 2
+                             &kp LEFT_ALT    &kp SPACE  &kp LEFT_WIN    &kp DOWN      &kp ENTER  &to 1
             >;
         };
 
@@ -29,10 +29,10 @@
 &none            &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON     &kp COMMA       &kp F1          &kp F2                &kp F3            &kp F4             &kp F5                 &kp F6
 &kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT               &kp DOUBLE_QUOTES      &kp RIGHT_BRACE   &kp QUESTION    &kp F7          &kp F8                &kp F9            &kp F10            &kp F11                &kp F12
 &kp HASH         &kp CARET       &kp EQUAL             &kp UNDERSCORE         &kp DOLLAR        &kp ASTERISK    &kp TILDE       &kp AMPERSAND         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS               &kp BACKSLASH
-&kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp SLASH       &none           &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &none
+&kp AT_SIGN      &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GREATER_THAN  &kp COLON       &none           &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &none
                                  &none                 &none                                                                                          &none             &none
                                                        &bt BT_SEL 0           &bt BT_NXT        &bt BT_PRV      &kp LEFT_ARROW  &kp RIGHT_ARROW       &none
-                                                       &none                  &none             &kp SPACE       &kp SPACE       &none                 &none
+                                                       &bt BT_SEL 1           &bt BT_CLR_ALL    &kp SPACE       &kp SPACE       &none                 &to 2
             >;
         };
 
@@ -44,7 +44,7 @@
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B       &kp N   &kp M   &none   &none   &none   &none
                    &none   &none                                          &none   &none
                            &none   &kp LALT   &kp LGUI    &to 0   &none   &none
-                           &none   &kp SPACE  &none       &none   &none   &tog 0
+                           &none   &kp SPACE  &none       &none   &none   &to 0
             >;
         };
     };
