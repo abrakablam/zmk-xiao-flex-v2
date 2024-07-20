@@ -18,7 +18,7 @@
 &kp LCTRL       &kp A   &kp R        &kp S            &kp T         &kp G        &kp M         &kp N      &kp E          &kp I     &kp O     &kp APOS
 &kp LEFT_SHIFT  &kp Z   &kp X        &kp C            &kp D         &kp V        &kp K         &kp H      &kp COMMA      &kp DOT   &kp FSLH  &kp GRAVE
                         &kp PAGE_UP  &kp PAGE_DOWN                                                        &kp LBKT       &kp RBKT
-                                     &lt 1 BACKSPACE  &lt 2 ESCAPE  &kp RIGHT    &kp UP_ARROW  &kp ENTER  &kp BACKSPACE
+                                     &lt 1 BACKSPACE  &lt 2 ESCAPE  &kp RIGHT    &kp UP_ARROW  &kp SPACE  &kp BACKSPACE
                                      &none            &lt 3 DELETE  &kp LEFT     &kp DOWN      &kp ENTER  &none
             >;
         };
